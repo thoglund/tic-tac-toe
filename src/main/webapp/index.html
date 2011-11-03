@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+<head>
+<title>tic</title>
+<link rel="stylesheet" href="css/default.css" media="screen">
+<!--         <link rel="stylesheet" href="print.css" media="print"> -->
+<script src="js/raphael-min-2.0.0.js"></script>
+<script src="js/tic.js"></script>
+<script src="js/index.js"></script>
+<script src="js/angular-0.10.4.js" ng:autobind></script>
+</head>
+<body ng:controller="TicCtrl">
+
+	<div id="menu">
+		<h1>a tic-tac-toe game</h1>
+	</div>
+
+	<div id="content">
+		<!-- 		<h2>content column</h2> -->
+		<script type="text/javascript">
+			com_github_tic.game('content', 340, 350)
+		</script>
+	</div>
+</body>
+</html>
+

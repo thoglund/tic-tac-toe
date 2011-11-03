@@ -1,0 +1,27 @@
+/** BASIC */
+
+
+body {
+  background-color: #e1ddd9;
+  font-size: 13px;
+  font-family: Arial, SunSans-Regular, Sans-Serif;
+  color:#564b47;  
+  padding:0 20px;
+  margin:0;
+}
+
+/** CONTENT */
+#content {
+  margin-left: 200px;
+/*   background-color:#d1ddd9; */
+  overflow: auto;
+}
+
+/** MENU **/
+#menu {
+position: absolute;
+width: 200px;
+left: 20px;
+padding:0;
+margin:0;
+}
